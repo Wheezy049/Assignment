@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* border-radius: 10px; */
+}
+.item {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em 4em 1em 2em;
+  /* border-radius:10% ; */
+}
+img {
+  padding-bottom: 20px;
+  /* size: 10vh; */
+}
+.item .header {
+  color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: "poppins" sans-serif;
+  font-size: bold;
+}
+.item .content {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-family: "poppins" sans-serif;
+  line-height: 1.5;
+}
+.item .btn {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  border-radius: 20px;
+  width: 90%;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+  /* padding-bottom: 10px; */
+}
+.item-1 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em 4em 1em 2em;
+  /* border-radius: 10%; */
+}
+.item-1 .header-1 {
+  color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: "poppins" sans-serif;
+  font-size: bold;
+}
+.item-1 .content-1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  font-family: "poppins" sans-serif;
+  line-height: 1.5;
+}
+.item-1 .btn-1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: none;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 8px;
+  outline: none;
+  cursor: pointer;
+  /* padding-bottom: 20px; */
+}
+.item-2 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em 4em 1em 2em;
+  /* border-radius: 10px; */
+}
+.item-2 .header-2 {
+  color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: "poppins" sans-serif;
+  font-size: bold;
+}
+.item-2 .content-2 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-family: "poppins" sans-serif;
+  line-height: 1.5;
+}
+.item-2 .btn-2 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border: none;
+  border-radius: 20px;
+  width: 90%;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+  /* padding-bottom: 20px; */
+}
